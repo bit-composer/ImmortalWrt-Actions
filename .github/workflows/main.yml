@@ -5,8 +5,8 @@ permissions: write-all
 
 on: 
   pull_request: 
-  schedule:
-    - cron: '30 0 1 * *'
+#  schedule:
+#    - cron: '30 0 1 * *'
 
 env:
   UPLOAD_BIN_DIR: false
