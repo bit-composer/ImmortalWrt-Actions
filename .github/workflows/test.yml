@@ -5,6 +5,7 @@ permissions: write-all
 
 on: 
   pull_request: 
+  workflow_dispatch:
 #  schedule:
 #    - cron: '30 0 1 * *'
 
